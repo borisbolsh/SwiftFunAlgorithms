@@ -15,7 +15,7 @@ func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {
     return globalMax
 }
 
-print(findMaxConsecutiveOnes([1,1,0,1,1,1,0,0,1,1]))  // 3
-print(findMaxConsecutiveOnes([1,1,0,1,1,0,1]))        // 2
-print(findMaxConsecutiveOnes([1,0,1,0,1]))            // 1
-print(findMaxConsecutiveOnes([0,0]))                  // 0
+findMaxConsecutiveOnes([1,1,0,1,1,1,0,0,1,1])   // 3
+findMaxConsecutiveOnes([1,1,0,1,1,0,1])         // 2
+findMaxConsecutiveOnes([1,0,1,0,1])             // 1
+findMaxConsecutiveOnes([0,0])                   // 0
