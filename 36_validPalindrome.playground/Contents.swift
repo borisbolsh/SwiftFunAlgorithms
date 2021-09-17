@@ -25,9 +25,8 @@ func isValid(_ skipLeft: Bool, _ s: [Character]) -> Bool {
             }
         }
     }
-    
     return true
 }
 
-validPalindrome("abba")     // true
-validPalindrome("oppa")     // false
+validPalindrome("abba")         // true
+validPalindrome("github")       // false
