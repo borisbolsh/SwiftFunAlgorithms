@@ -24,3 +24,4 @@ func validParentheses(_ s: String) -> Bool {
 
 validParentheses("()[]{}")  // true
 validParentheses("()]{}")   // false
+validParentheses("[]")      // true
