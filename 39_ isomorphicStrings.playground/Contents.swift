@@ -1,4 +1,4 @@
- func isIsomorphic(_ s: String, _ t: String) -> Bool {
+func isIsomorphic(_ s: String, _ t: String) -> Bool {
     guard s.count == t.count else {
         return false
     }
@@ -20,7 +20,7 @@
     }
     
     return true
- }
+}
 
 isIsomorphic("paper", "title")   // true
 isIsomorphic("fizz", "buzz")     // true
